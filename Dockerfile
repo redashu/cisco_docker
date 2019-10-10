@@ -1,8 +1,8 @@
-FROM  fedora   
+FROM  centos
 #   we can use  multiple FROM  instruction 
 MAINTAINER  ashutoshh@linux.com , 9509957594 
 #  for uses who want to connect with me regarding any issues 
-RUN  dnf install   httpd  net-tools  git -y ;  touch  /okk.txt 
+RUN  yum  install   httpd  net-tools  git -y ;  touch  /okk.txt 
 #  net-tools  for  installing  ifconfig command in fedora image 
 #  More than one  RUN  instruction  you can give --every run instrction will create a new layer in image
 COPY  index.html  docker.jpg   /var/www/html/
