@@ -1,4 +1,4 @@
-FROM  centos
+FROM  54.158.249.1:5000/fedora:shashank
 #   we can use  multiple FROM  instruction 
 MAINTAINER  ashutoshh@linux.com , 9509957594 
 #  for uses who want to connect with me regarding any issues 
